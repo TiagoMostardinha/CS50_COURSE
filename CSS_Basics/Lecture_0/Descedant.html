@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Descedant</title>
+        <style>
+            ul li {
+                color: red;
+            }
+            ul > ol > li{
+                color: blue;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <ol>
+            <li>list item one</li>
+            <li>list item two</li>
+            <ul>
+                <li>sublist item one</li>
+                <li>sublist item two</li>
+                <ol>
+                    <li>sub sublist item one</li>
+                    <li>sub sublist item two</li>
+                </ol>
+            </ul>
+            <li>list item three</li>
+        </ol>
+    </body>
+</html>
+
+<!-- descedant is an CSS Selector which can be used to customize the immediate children of an element. We use > to modify the immediate children of an element(ex: x > y) or we can specify children and grandchildren just by writing next to it the element(x y)-->
