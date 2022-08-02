@@ -2,6 +2,23 @@
 <html lang="en">
     <head>
         <title>Hello!</title>
+        <style>
+            /* this "container" has all these properties */
+            #container{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            /* the div inside "container" has all these properties */
+            #container > div{
+                background-color: springgreen;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+            }
+
+        </style>
     </head>
     <body>
         <div id="container">
