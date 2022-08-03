@@ -1,13 +1,41 @@
+//navigation bar
 #navigation-bar{
-    background-color: gray;
+    background-color: green;
     display: grid;
-    grid-template-columns: auto auto auto;
+    padding: 20px;
+    grid-template-columns:auto auto auto;
+    column-gap: 20px;
+    
 }
 
-.nav-item{
+.nav-button{
     background-color: lightblue;
-    font-size: 15px;
-    padding: 20px;
     text-align: center;
-    min-width: 200px;
+    min-width: 100px;
+    font-size: 15px;
+}
+
+//search-container
+#search-container{
+    background-color: yellow;
+    margin: auto;
+}
+
+//search-table
+#search-table{
+    background-color: aqua;
+    margin: auto;
+    width: auto;
+}
+
+td{
+    text-align: center;
+}
+
+#text-box{
+    min-width: 450px;
+}
+
+#submit-button{
+    
 }
