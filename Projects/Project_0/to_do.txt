@@ -1,0 +1,21 @@
+ToDo:
+	- 3 pages(index.html is for Google Search)
+	- have links to jump to other pages
+	- write in google search and should be redirected to google.com/search
+	- search bar rounded corners and centered
+	- search button centered and beneath the search bar
+
+	- google image search page same thing asa google search
+	
+	- google advanced the user should be able to provide input for:
+		1. Find pages with "all these words:"
+		2. Find pages with "this exact word or phrases"
+		3. FInd pages with "any of these words"
+		4. Find pages with "none of these words"
+	- the four options must be stacked vertically and text fields must be left aligned 
+	- advanced search button must be blue and have white text.
+	- when advanced searched button is clicked the user should be taken to the search result page for their given query
+	
+	-add "im feeling lucky button" to main google search, this button will redirect to the first link in google.
+	
+	-css should resemble googles aesthetics-
