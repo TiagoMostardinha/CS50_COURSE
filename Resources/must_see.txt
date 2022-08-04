@@ -1,2 +1,2 @@
-css trics: ttps://www.youtube.com/watch?v=Qhaz36TZG5Y
+css tricks: ttps://www.youtube.com/watch?v=Qhaz36TZG5Y
 css grid: https://www.youtube.com/watch?v=Y9rHsdCxU8Q
