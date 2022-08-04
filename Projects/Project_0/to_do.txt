@@ -5,7 +5,7 @@ ToDo:
 	- search bar rounded corners and centered
 	- search button centered and beneath the search bar
 
-	- google image search page same thing asa google search
+	- google image search page same thing as a google search
 	
 	- google advanced the user should be able to provide input for:
 		1. Find pages with "all these words:"

@@ -1,7 +1,7 @@
 #navigation-bar {
   background-color: green;
   display: grid;
-  padding: 20px;
+  padding: 10px;
   grid-template-columns: auto auto auto;
   -moz-column-gap: 20px;
        column-gap: 20px;
@@ -14,21 +14,22 @@
   font-size: 15px;
 }
 
-#search-container {
+#container {
   background-color: yellow;
   margin: auto;
+  width: 100%;
+  height: auto;
 }
 
 #search-table {
   background-color: aqua;
   margin: auto;
-  width: auto;
 }
 
-td {
+#search-table tr {
   text-align: center;
 }
 
 #text-box {
-  min-width: 450px;
+  width: 450px;
 }/*# sourceMappingURL=index.css.map */
