@@ -1,2 +1,3 @@
 css tricks: ttps://www.youtube.com/watch?v=Qhaz36TZG5Y
 css grid: https://www.youtube.com/watch?v=Y9rHsdCxU8Q
+css flexbox: https://www.youtube.com/watch?v=JJSoEo8JSnc
