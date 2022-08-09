@@ -12,11 +12,11 @@ body{
 
   display: grid;
 
-  grid-template: 50px 1fr 1fr 100px / 1fr 7fr 1fr ;
+  grid-template: 50px 1fr 1fr 150px / 1fr 7fr 1fr ;
 
   gap: 10px;
 
-  padding: 10px;
+  /* padding: 10px; */
   box-sizing: border-box;
 }
 
@@ -33,11 +33,14 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  background-color: rgb(0,0,0,.9);
 }
 
 .button-header{
   flex: 1;
   text-align: center;
+
 }
 
 
@@ -72,8 +75,6 @@ body{
 }
 
 #text-box{
-  
-
   width: 50vw;
 }
 
@@ -87,4 +88,13 @@ body{
 /* Footer */
 .footer{
   grid-column: 1 / span 3;
+
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.content-small{
+  height: 100%;
+  flex-basis: 50vw;
 }
