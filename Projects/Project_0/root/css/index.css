@@ -2,6 +2,11 @@ body{
   margin: 0;
 }
 
+
+
+
+/* Container */
+/* container-strcuture*/
 .container{
   width: 100vw;
   height: 100vh;
@@ -26,7 +31,10 @@ body{
 }
 
 
-/* Nav bar */
+
+
+/* Header */
+/* header-strcture */
 .header{
   grid-column: 1 / span 3;
 
@@ -40,11 +48,13 @@ body{
 .button-header{
   flex: 1;
   text-align: center;
-
 }
 
 
+
+
 /* Mid page */
+/* mid-structure */
 .content-mid-1{
   grid-column: 2 / 3;
 
@@ -56,6 +66,7 @@ body{
   justify-content: flex-end;
 }
 
+/*mid-content */
 .content-mid-1 img{
   padding: 20px;
   width: 20vw;
@@ -85,16 +96,31 @@ body{
 }
 
 
+
+
 /* Footer */
+/* footer-structure */
 .footer{
   grid-column: 1 / span 3;
 
   display: flex;
-  align-items: center;
-  /* justify-content: space-around; */
+  background-color: rgba(187, 187, 187, 0.5);
 }
 
 .content-small{
-  height: 100%;
-  flex-basis: 50vw;
+  flex: 2;
+  flex-basis: 27%;
+
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.content-empty{
+  flex: 1;
+  flex-basis: 12%;
+}
+
+/* footer-content */
+.footer h3{
+  margin:0px;
 }
