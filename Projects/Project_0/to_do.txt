@@ -18,4 +18,4 @@ ToDo:
 	
 	-add "im feeling lucky button" to main google search, this button will redirect to the first link in google.
 	
-	-css should resemble googles aesthetics-
+	-css should resemble googles aesthetics
