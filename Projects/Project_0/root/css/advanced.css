@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+}
+
+
+
+
+/* Container */
+/* container-strcuture*/
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+
+  display: grid;
+
+  grid-template: 50px 100px 1fr 30px 120px / 1fr 7fr 1fr;
+
+  /* gap: 10px; */
+
+  /* padding: 10px; */
+  box-sizing: border-box;
+}
+
+.container div {
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+
+
+
+/* Header */
+/* header-strcture */
+.header {
+  grid-column: 1 / span 3;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: rgb(0, 0, 0, 0.9);
+}
+
+.button-header {
+  flex: 1;
+  text-align: center;
+}
+
+.header a {
+  color: gray;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: white;
+}
+
+
+
+
+/* Mid page */
+/* mid-structure */
+.content-mid {
+  grid-column: 2 / 3;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/*mid-content */
+.content-mid form {
+  display: grid;
+
+  grid-template: 1fr 1fr 1fr 1fr 50px / 1fr 1fr;
+  
+  gap: 20px;
+}
+
+.text-box-adv {
+  width: 40vw;
+  height: 30px;
+
+  border: 2px solid gray;
+  border-radius: 20px;
+
+  padding-left: 20px;
+}
+
+#submit-button {
+  width: 150px;
+  height: 25px;
+
+  border: 2px solid rgb(0, 132, 255);
+  border-radius: 10px;
+
+  background-color: rgb(0, 132, 255);
+  color: white;
+}
+
+#submit-button:hover {
+  background-color:  rgba(0, 132, 255, 0.678);
+}
+
+
+
+
+/* Above Footer*/
+.above-footer {
+  grid-column: 1 / span 3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(216, 216, 216, 0.747);
+  color: rgb(161, 161, 161);
+}
+
+
+
+
+/* Footer */
+/* footer-structure */
+.footer {
+  grid-column: 1 / span 3;
+
+  display: flex;
+  /* background-color: rgba(231, 231, 231, 0.747); */
+  background-color: rgb(0, 0, 0, 0.9);
+
+  color: rgb(163, 163, 163);
+}
+
+.content-small {
+  flex: 2;
+  flex-basis: 27%;
+
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.content-empty {
+  flex: 1;
+  flex-basis: 12%;
+}
+
+/* footer-content */
+.footer h3 {
+  margin: 0px;
+}
